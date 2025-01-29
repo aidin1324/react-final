@@ -1,0 +1,6 @@
+.categories-container {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }

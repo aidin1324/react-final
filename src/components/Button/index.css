@@ -1,0 +1,72 @@
+* {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .my-button {
+    min-width: 154px;
+    height: 44px;
+    border-radius: 8px;
+    cursor: pointer;
+  
+    font-size: 14px;
+    transition: background-color 344ms ease-in-out;
+  }
+  
+  .my-button--primary {
+    border: none;
+    color: white;
+    background-color: #4169e1;
+  }
+  
+  .my-button--bordered {
+    border: 1px solid #416fee;
+    color: #416fee;
+    background-color: white;
+  }
+  
+  .my-button--primary:hover {
+    background-color: #4664e4;
+    /* border: 1px solid #4169e1;
+    color:#4169e1; */
+  }
+  
+  .my-button--bordered:hover {
+    background-color: #4169e1;
+    color: white;
+  }
+  
+  .my-button--sm {
+    min-width: 144px;
+    height: 44px;
+    font-size: 13px;
+  }
+  
+  .my-button--md {
+    min-width: 154px;
+    height: 44px;
+    font-size: 14px;
+  }
+  
+  .my-button--lg {
+    min-width: 344px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 34px;
+  }
+  
+  .my-button--disabled {
+    cursor: not-allowed;
+    background-color: #4d98ee;
+    color: #ebebeb;
+  }
+  
+  .my-button--disabled:hover {
+    background-color: #4d98ee;
+    color: #ebebeb;
+  }
+  
+  .my-button--disabled.my-button--bordered {
+    border: 1px solid #4d98ee;
+    color: #4d98ee;
+    background-color: white;
+  }
